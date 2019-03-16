@@ -1,0 +1,38 @@
+#include <iostream>
+#include <string>
+#include <conio.h>
+using namespace std;
+
+int main ()
+{
+	float d1, d2, d3, d4, d5, sum, average;
+	int int1, int2, int3, int4, int5;
+	cout << "Enter 1st decimal number" << endl;
+	cin >> d1;
+	cout << "Enter 2nd decimal number" << endl;
+	cin >> d2;
+	cout << "Enter 3rd decimal number" << endl;
+	cin >> d3;
+	cout << "Enter 4th decimal number" << endl;
+	cin >> d4;
+	cout << "Enter 5th decimal number" << endl;
+	cin >> d5;
+	sum = d1+d2+d3+d4+d5;
+	average = sum/5;
+	int1 = d1;
+	int2 = d2;
+	int3 = d3;
+	int4 = d4;
+	int5 = d5;
+	cout << "The sum is " << sum << endl;
+	cout << "The average is " << average << endl;
+	cout << "The integer of the 1st number is " << int1 << endl;
+	cout << "The integer of the 2nd number is " << int2 << endl;
+	cout << "The integer of the 3rd number is " << int3 << endl;
+	cout << "The integer of the 4th number is " << int4 << endl;
+	cout << "The integer of the 5th number is " << int5 << endl;
+
+	_getch();
+	return 0;
+
+}
